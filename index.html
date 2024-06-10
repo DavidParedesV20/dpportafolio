@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="img/icon.png" type="icono">
+    <title>DP-WEB</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- Whatss app button -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<a href="https://wa.me/+593984538933" class="float" target="_blank">
+<i class="fa fa-whatsapp my-float"></i>
+</a>
+    <!--MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="">DP</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">LOGIN</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">ABOUT ME</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">RESUME</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">BRIEFCASE</a></li>
+                    <li><a href="#certificaciones" onclick="seleccionar()">CERTIFICACIONS</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACT ME</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor">
+                <img src="./img/hero1.png" alt="">
+            </div>
+            <h1>DAVID PAREDES</h1>
+            <h2>¡Always ready!</h2>
+            <div class="redes">
+                <a href="https://www.instagram.com/davidparedesv/" id=""><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.facebook.com/DavidParedesV/" id=""><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.youtube.com/channel/UCMxiXyuTcJf4zf4Oq02Tolw" id=""><i class="fa-brands fa-youtube"></i></a>
+                <a href="https://www.linkedin.com/in/davidparedesv/" id=""><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.tiktok.com/@davidparedesv20/video/7034876569747295493" id=""><i class="fa-brands fa-tiktok"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION ABOUT ME -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>ABOUT ME</h2>
+            <p><span>Hi, Im David Paredes </span> I graduate in communication. I excel in post-production of content for social media and graphic and audiovisual content design for online platforms. Currently, I am continuously learning additional skills that could prove beneficial like a bit of programming. My primary goal is to accumulate extensive experience and knowledge, contributing not only to my personal growth but also to the environments I engage with. I thrive in collaborative team settings.</p>
+                <div class="fila">
+                    <!-- datos personales -->
+                <div class="col">
+                    <h3>Personal Info</h3>
+                    <ul>
+                        <li>
+                            <strong>Birthday</strong>
+                            20-08-1998
+                        </li>
+                        <li>
+                            <strong>Phone</strong>
+                            0984 538 933
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            davidpv_10@hotmail.com
+                        </li>
+                        <li>
+                            <strong>Location</strong>
+                            Pichincha/Quito-ECUADOR
+                        </li>
+                        <li>
+                            <strong>Charge</strong>
+                            <span>MULTIMEDIA CONTENT EDITOR</span>
+                        </li>
+                    </ul>
+                </div>
+                        <!-- intereses -->
+                        <div class="col">
+                            <h3>intereses</h3>
+                            <div class="contenedor-intereses">
+                            <div class="intereses">
+                                <i class="fa-solid fa-gamepad"></i>
+                                <span>GAMES</span>
+                            </div>
+                            <div class="intereses">
+                                <i class="fa-solid fa-headphones"></i>
+                                <span>MUSIC</span>
+                            </div>
+                            <div class="intereses">
+                                <i class="fa-solid fa-dumbbell"></i>
+                                <span>SPORTS</span>
+                            </div>
+                            <div class="intereses">
+                                <i class="fa-solid fa-computer"></i>
+                                <span>TECHNO</span>
+                            </div>
+                            <div class="intereses">
+                                <i class="fa-solid fa-film"></i>
+                                <span>MOVIES</span>
+                            </div>
+                            <div class="intereses">
+                                <i class="fa-solid fa-file-video"></i>
+                                <span>POST PRODUCTION</span>
+                            </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <button type="button" onclick="window.open('https://5cad7d03-34c1-4751-8bf8-9222b55393f0.filesusr.com/ugd/b0b21a_a2967bf49cd9498592109c8d1c509483.pdf');">
+                        RESUME SPANISH<i class="fa-solid fa-download"></i>
+                        <span class="overlay"></span>
+                    </button>
+                    <button type="button" onclick="window.open('https://5cad7d03-34c1-4751-8bf8-9222b55393f0.filesusr.com/ugd/b0b21a_d23e5d0a83e34d399eb719c78dfea87e.pdf');">
+                        RESUME ENG<i class="fa-solid fa-download"></i>
+                        <span class="overlay"></span>
+                    </button>                       
+            </div>
+    </section>
+
+<!-- SECCION SKILLS -->
+<section class="skills" id="skills">
+    <div class="contenido-seccion">
+        <h2>Skills</h2>
+        <div class="fila">
+            <!-- Technical Skill -->
+            <div class="col">
+                <h3>Technical Skills</h3>
+                <div class="skill">
+                    <span>Illustrador</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Photoshop</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>HTML/CSS</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Affter Effects</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Adobe Premiere</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Professional Skills -->
+            <div class="col">
+                <h3>Professional Skills</h3>
+                <div class="skill">
+                    <span>Comunicationn</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Team work</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Creativity</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Commitment</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Proyect Management</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>RESUME</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educaction</h3>
+                    <div class="item izq">
+                        <h4>Comunication</h4>
+                        <span class="casa">Universidad de los Hemisferios</span>
+                        <span class="fecha">2017 - 2021</span>
+                        <p>
+                            I studied social communication at Hemisferios University, where my focus was on acquiring skills in using software for both video editing and graphic design.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div> 
+                </div>
+            <div class="col derecha">
+                <h3>Work experience</h3>
+                <div class="item der">
+                    <h4>Producción de contenido para redes</h4>
+                    <span class="casa">Kafeina</span>
+                    <span class="fecha">11/2022 - 03/2023</span>
+                    <p>
+                        Kafeina is a company that owns a chain of bars in Quito, where I undertook responsibilities associated with editing images and videos for social media content. Additionally, I contributed as a graphic design assistant during my tenure with the company.</p>
+                    <div class="conectord">
+                        <div class="circulod"></div>
+                    </div>
+                </div>
+                <div class="item der">
+                    <h4>Producción de contenido para redes</h4>
+                    <span class="casa">Arcidiócesis de Quito</span>
+                    <span class="fecha">02/2020 - 08/2020</span>
+                    <p>
+                        In the Archdiocese of Quito, I was responsible for creating graphic content for the organization's social media platforms. Additionally, I handled responses to comments and managed the organization's social media accounts.</p>
+                    <div class="conectord">
+                        <div class="circulod"></div>
+                    </div>
+                </div>
+               <div class="item der">
+                    <h4>Servicios varios</h4>
+                    <span class="casa">AtosCorp</span>
+                    <span class="fecha">12/2022-1/2022</span>
+                    <p>At Atoscorp, my responsibilities included gathering information from various dealerships and recording it within the company's database.</p>
+                    <div class="conectord">
+                        <div class="circulod"></div>
+                    </div>
+                </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</seccion>
+<!-- SECCION PORTFOLIO -->
+<section id="portfolio" class="portfolio">
+    <div class="contenido-seccion">
+        <h2>Some of my briefcase</h2>
+        <div class="galeria">
+            <div class="proyecto">
+                <img src="img/monkey/Screenshot_1.png" alt="">
+                <div class="overlay">
+                    <h3>Network Content</h3>
+                    <p>Design</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <img src="img/monkey/Screenshot_2.png" alt="">
+                <div class="overlay">
+                    <h3>Network Content</h3>
+                    <p>Design</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <img src="img/monkey/Screenshot_3.png" alt="">
+                <div class="overlay">
+                    <h3>Network Content</h3>
+                    <p>Design</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <img src="img/monkey/Screenshot_4.png" alt="">
+                <div class="overlay">
+                    <h3>Network Content</h3>
+                    <p>Design</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <img src="img/monkey/Screenshot_5.png" alt="">
+                <div class="overlay">
+                    <h3>Network Content</h3>
+                    <p>Design</p>
+                </div>
+            </div>
+        </div>
+    </div>
+<div class="diseños">
+    <button type="button" onclick="window.open('https://davidparedesv.wixsite.com/blogdp/dise%C3%B1os')">
+        <h4>VER MÁS DISEÑOS</h4>
+        <i class="fa-solid fa-arrow-circle-right"></i>
+        <span class="overlay"></span>
+    </button>
+</div>
+
+<div class="multimedia">
+    <button type="button" onclick="window.open('https://davidparedesv.wixsite.com/blogdp/videos')">
+        <h4>MIS VIDEOS</h4>
+        <i class="fa-solid fa-arrow-circle-right"></i>
+        <span class="overlay"></span>
+    </button>
+</div>
+</section>
+<!-- SECCION CERTIFICACIONES -->
+<section id="certificaciones" class="certificaciones">
+    <div class="contenido-seccion">
+        <h2>CERTIFICATIONS</h2>
+        <div class="certificado">
+            <div class="proyecto">
+                <img src="img/certificados/Configuracion-entorno-de-desarrollo-en-windows.png" alt="">
+                <div class="overlay">
+                    <h3>Configuracion y desarrollo en windows</h3>
+                </div>
+            </div>
+            <div class="proyecto">
+                <img src="img/certificados/PixelArt-Crehana.png" alt="">
+                <div class="overlay">
+                    <h3>Pixel Art</h3>
+                </div>
+            </div>
+            <div class="proyecto">
+                <img src="img/certificados/Planeacion-y-medicion-de-capanas.png" alt="">
+                <div class="overlay">
+                    <h3>Planeación de campañas</h3>
+                </div>
+            </div>
+            <div class="proyecto">
+                <img src="img/certificados/Platzi-Javascript.png" alt="">
+                <div class="overlay">
+                    <h3>Javascript</h3>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SECCION CONTACTO -->
+<section id="contacto" class="contacto">
+    <div class="contenido-seccion">
+        <h2>CONTACT ME</h2>
+        <div class="fila">
+            <!-- Formulario -->
+            <div class="col">
+                <input type="text" placeholder="Your name">
+                <input type="text" placeholder="Your phone">
+                <input type="email" placeholder="Your mail">
+                <input type="text" placeholder="Subject">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                <button>
+                    Send <i class="fa-solid fa-paper-plane"></i>
+                    <span class="overlay"></span>
+                </button>
+            </div>
+            <!-- Mapa -->
+            <div class="col">
+                <img src="img/ubicacion.png" alt="">
+                <div class="info">
+                    <ul>
+                        <li>
+                            <i class="fa-solid fa-location-dot"></i>
+                            Location: Pichincha/Quito-Ecuador
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-mobile-screen"></i>
+                            Cell: 0984 538 933
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-envelope"></i>
+                            Email: davidpv_10@hotmail.com
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- footer -->
+<footer>
+    <a href="#inicio" class="arriba">
+        <i class="fa-solid fa-angles-up"></i> 
+    </a>
+    <div class="redes">
+        <a href="https://www.instagram.com/davidparedesv/" id=""><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.facebook.com/DavidParedesV/" id=""><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.youtube.com/channel/UCMxiXyuTcJf4zf4Oq02Tolw" id=""><i class="fa-brands fa-youtube"></i></a>
+        <a href="https://www.linkedin.com/in/davidparedesv/" id=""><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://www.tiktok.com/@davidparedesv20/video/7034876569747295493" id=""><i class="fa-brands fa-tiktok"></i></a>
+    </div>
+    <h1>Site made by David Paredes</h1>   
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
